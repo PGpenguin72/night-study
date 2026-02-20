@@ -1,0 +1,8 @@
+name = "night-study-api"
+main = "worker.js"
+compatibility_date = "2024-02-20"
+
+[[d1_databases]]
+binding = "DB" # Worker 程式碼裡 env.DB 就是對應這個名稱
+database_name = "night-study-db"
+database_id = "001fe4c8-3694-410c-b6c0-24f2bd5819a4"
